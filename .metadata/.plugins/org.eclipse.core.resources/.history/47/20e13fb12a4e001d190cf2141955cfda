@@ -1,0 +1,20 @@
+package codeNinjas;
+
+import java.util.Scanner;
+
+public class conditionalOper {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int k = s.nextInt();
+		System.out.println("eneter the number");
+		
+		if(k % 2 == 0) 
+		{
+			System.out.println("even :" + k);
+		}
+		else {
+			System.out.println("odd :" + k);
+		}
+	}
+}

@@ -9,6 +9,7 @@ public class Array1Ex {
 		names[1]= "ram";
 		System.out.println(names[1]);
 		System.out.println("%p");
+		System.out.println();
 	}
 	
 

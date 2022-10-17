@@ -1,0 +1,18 @@
+package codeNinjas;
+
+public class RelLogOperator {
+	public static void main(String[] args) {
+	
+		byte b = 50;
+		//here we are converting int to byte so the data can be lost hence output will be -60
+		b = (byte)(b * 50);
+		System.out.println(b);
+		float f =(float)1.7;
+		System.out.println(f);
+		
+		
+		double a=10/4;
+		System.out.println(a);
+	}
+
+}
