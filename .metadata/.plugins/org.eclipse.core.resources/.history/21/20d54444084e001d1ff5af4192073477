@@ -1,0 +1,9 @@
+package codeNinjas;
+
+public class typecasting {
+	public static void main(String[] args) {
+		int i = (int)10.6;
+		System.out.println(i);
+	}
+
+}

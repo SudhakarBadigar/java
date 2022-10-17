@@ -1,0 +1,14 @@
+package codeNinjas;
+
+public class typecasting {
+	public static void main(String[] args) {
+		int i = (int)10.6;
+		System.out.println(i);
+		short s = 17;
+		int j = s;
+		s=(short)j;
+		System.out.println(s);
+		
+	}
+
+}
